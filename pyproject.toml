@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "setup-buttler"
+version = "0.1.0"
+description = "Setup buttler for CI setups."
+authors = ["Matthias Osswald <m@osswald.li>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-jenkins = "^1.7.0"
+python-dotenv = "^0.15.0"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
